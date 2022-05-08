@@ -7,11 +7,12 @@ import {AppMap} from "./02.Map/AppMap";
 import {ButtonApp} from "./03.Button/ButtonApp";
 import {UseStateApp} from "./04.UseState/UseStateApp";
 import {Filter} from "./05.Filter/FilterApp";
+import {FullInput} from "./06.Input/FullInput";
 
 function App() {
         return(
             <div>
-                <Filter />
+                <FullInput />
             </div>
         )
 }
